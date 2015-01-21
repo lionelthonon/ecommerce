@@ -1,0 +1,33 @@
+extends layout.jade
+
+head
+    block head-title
+        title Projet Ecommerce - Accueil
+
+block content-left
+    h2.wrap__title PRODUITS PHARES
+    // CATÉGORIES MENU
+    section(class="list-categories")
+        h2.hidden Choix de catégorie de produits
+        ul(class="list-inline list-categories__nav--text")
+            li  
+                a(class="list-categories__nav" href="#") CHEMISES
+            li  
+                a(class="list-categories__nav" href="#") PULLS
+            li  
+                a(class="list-categories__nav" href="#") POLOS
+                
+    // BAN PROMO
+    div 
+        img(class="wrap__img" src="img/promo.png")
+        
+    // MENU CHOIX GENRE
+    div(class="wrapper-left__genre")
+        a(class="wrapper-left__genre--selected" href="#") HOMMES
+        a(href="#") FEMMES
+    
+    div(class="liste-articles clearfix")
+        ul(class="liste-articles__ul clearfix")
+            article.article
+                - for (var x=0; x<24; x++)
+                    include item-article.jade

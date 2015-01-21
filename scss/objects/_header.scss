@@ -1,0 +1,31 @@
+///*------------------------------------*\
+// #HEADER (comportement)
+//\*------------------------------------*/
+
+.header {
+    width: 100%;
+}
+
+.header__title, .header__menu, .cart {
+    float: left;
+    width: 33.25%;
+}
+
+.cart {
+    text-align: center;
+    padding: 1em 3em 1em 1em;
+}
+
+.header__menu {
+    text-align: center;
+    margin: 2.5em 0 0 0;
+    
+    a {
+        display: block;
+        padding: 0.5em 0.8em;
+    }
+}
+
+.menu__li {
+    padding: 0 0.6em;
+}

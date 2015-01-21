@@ -1,0 +1,16 @@
+///*------------------------------------*\
+// #LISTE ARTICLES (design)
+//\*------------------------------------*/
+
+.liste-articles__article {
+    background-color: $inuit-color-white;
+    list-style-type: none;
+    border-radius: 5px;
+    transition: border ease 450ms;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.liste-articles__article:hover {
+    border: 2px solid $inuit-color-red;
+    transition: border ease 450ms;
+}

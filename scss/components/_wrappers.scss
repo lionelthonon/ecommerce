@@ -1,0 +1,25 @@
+///*------------------------------------*\
+// #WRAPPERS (design)
+//\*------------------------------------*/
+
+.wrap__title {
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid $inuit-base-text-color;
+}
+
+.wrapper-left__genre {
+    text-align: center;
+    
+    a {
+        color: $inuit-base-text-color;
+        text-decoration: none;
+        transition: background-color ease 650ms;
+    }
+    
+    a:hover {
+        color: $inuit-color-white;
+        background-color: $inuit-color-red;  
+        transition: background-color ease 650ms;
+    }
+}

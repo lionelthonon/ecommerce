@@ -1,0 +1,42 @@
+///*------------------------------------*\
+// #WRAPPERS (comportement)
+//\*------------------------------------*/
+.wrapper-left {
+    float: left;
+    width: 70%;
+}
+
+.wrap__art--font {
+    font-size: 11pt;
+}
+
+.wrapper-right {
+    float: left;
+    width: 30%;
+    padding-left: 0 !important;
+}
+
+.wrap {
+    padding: 3.5em;
+}
+
+.wrap__title{
+    width: 100%;
+}
+
+.wrapper-left__genre {
+    width: 100%;
+    margin-bottom: 2em;
+    
+    a {
+        padding: 1em 2em;
+    }
+}
+
+.wrapper-left__genre--selected {
+    border-bottom: 1px solid $inuit-color-red;
+}
+
+.wrap__img {
+    margin: 2em 0 3em 0;
+}

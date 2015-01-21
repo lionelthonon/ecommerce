@@ -1,0 +1,40 @@
+///*------------------------------------*\
+// #LISTE ARTICLE (comportement)
+//\*------------------------------------*/
+
+.liste-articles__ul {
+    width: 100%;
+    margin: 0;
+}
+
+.liste-articles__article {
+    width: 24.25%;
+    padding: 2%;
+    margin-right: 1%; 
+    margin-bottom: 1%;
+    float: left;
+}
+
+.liste-articles__article:nth-child(4n) {
+    margin-right: 0;
+}
+
+.article__description {
+    span {
+        display: block;
+    }
+    
+    .article__description--nom {
+        text-align: center;
+        font-size: 1.3em;
+        border-bottom: 1px solid $inuit-base-text-color;
+    }
+    
+    .article__description--prix {
+        text-align: right;
+        font-weight: 400;
+        color: $inuit-color-red;
+        font-size: 1.5em;
+        width: 90%;
+    }
+}

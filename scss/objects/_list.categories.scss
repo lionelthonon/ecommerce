@@ -1,0 +1,31 @@
+///*------------------------------------*\
+// #LIST CATEGORIES (comportement)
+//\*------------------------------------*/
+
+    
+.list-categories {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 16pt;
+    
+    .list-categories__nav--text{
+        width: 100%;
+        
+        li {
+            width: 32.5%;
+            text-align: center;
+            margin: 0.5em 0;
+            padding: 0.5em 0;
+        }
+    }
+}
+
+.list-categories:after {
+    content:"";
+    display: block;
+    background: url('../img/separator.png');
+    background-position: 50% 50%;
+    background-size: 100%;
+    min-height: 2px;
+}

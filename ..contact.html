@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Projet E-Commerce</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- ### HEADER ### -->
+        <header class="header clearfix" name="bckg-parallax">
+            <div class=header__title>
+                <h1 class="hidden">WOO4MEN</h1>
+            <a href="#"><img src="img/logo-ban.png"></a>
+            </div>
+            
+            <nav class="header__menu">
+                <h2 class="hidden">Menu de navigation</h1>
+                <ul class="menu list-inline">
+                    <li class="menu__li">
+                        <a class="menu__a" href="#">ACCUEIL</a>
+                    </li>
+                    <li class="menu__li">
+                        <a class="menu__a" href="#">POINTS DE VENTE</a>
+                    </li>
+                    <li class="menu__li">
+                        <a class="menu__a" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="cart">
+                <div class="cart__welcome">
+                    <span>Bienvenue, <a href="#">inscrivez-vous</a> !</span>
+                </div>
+                <div>
+                    <span class="cart__language"><a href="#">FR</a> | <a href="#">NL</a> | <a href="#">EN</a></span>
+                </div>
+                <div>
+                    <span class="cart__content"><a href="#">Mon panier</a> (2 articles, 75€)</span>
+                </div>
+            </div>
+        </header>
+        
+        <!-- ### MAIN CONTAINER ### -->
+        <div class="main-wrapper clearfix">
+            <!-- Formulaire de contact (colonne gauche) -->
+            <section class="wrap wrapper-left">
+                <h2 class="wrap__title">Contactez-nous !</h2>
+                <form method="post" action="#" class="contact-form">
+                    <fieldset class="contact-form__fieldset">
+                        <legend class="hidden">ENVOYEZ UN MESSAGE</legend>
+
+                        
+                        <div class="contact-form__label clearfix">
+                            <label for="object">Objet de votre message</label>
+                            <input type="text" id="object" name="object">
+                        </div>
+                        
+                        <div class="contact-form__label clearfix">
+                            <label for="email">Votre adresse Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="contact-form__label clearfix">
+                            <label for="message">Votre message</label>
+                            <textarea id="message"></textarea>
+                        </div>
+                        
+                        <div class="contact-form__label clearfix">
+                            <label for="newsletter">S'abonner à la Newsletter</label>
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                        </div>
+                        
+                        <button type="submit" class="btn btn--full">Envoyer</button>
+                    </fieldset>
+                </form>
+                
+                <div class="social">
+                    <!-- Liens réseaux sociaux -->
+                    <h2 class="social__title wrap__title">Rejoignez nous sur les réseaux sociaux</h2>
+                    <span class="social__subtitle">N'hésitez pas à visiter nos pages et à les partager !</span>
+                    
+                    <ul class="list-inline social__links">
+                        <li><a href="#"><img src="img/icon-fcbk.png" alt="Lien vers la page Facebook"></a></li>
+                        <li><a href="#"><img src="img/icon-twtr.png" alt="Lien vers la page twitter"></a></li>
+                    </ul>
+                </div>
+                
+            </section>
+        
+            <!-- Description (colonne droite) -->
+            <section class="wrap wrapper-right">
+                <h2 class="hidden">Informations WOO4MEN</h2>
+                <article class="wrap__art--font">
+                    <h2 class="wrap__title">WOO4MEN</h2>
+                    <p>Woo4Men a été créé par des
+    passionnés de chemises pour des passionnés de chemises avec un service en ligne qui répond aux attentes les plus exigeantes des hommes qui aiment se démarquer et porter des chemises uniques.</p>
+                    <p>La collection Woo4Men et
+    4Woomen est renouvelée tous les mois, et chacune des chemises est un concept exclusif, éditée en série limitée. Tous les genres y trouvent leur compte, du style « exécutive » au style « dandy » en passant par les plus rock !</p>
+                    <p>Toutes nos chemises sont 100% Coton, gage de qualité tant pour la qualité des tissus utilisés que pour sa résistance dans le temps...﻿</p>
+                </article>
+                <article>
+                    <h2>FACEBOOK</h2>
+                    <p>Bloc Facebook</p>
+                </article>
+            </section>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+        
+        <footer class="footer">
+            <span class="footer__span">© 2011 - WOO4MEN - Tous droits réservés</span>
+            <span class="footer__span">Designed and powered by <a href="http://lionel-thonon.be/" target="_blank">Lionel Thonon</a></span>
+        </footer>
+    </body>
+</html>

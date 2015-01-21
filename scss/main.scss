@@ -1,0 +1,69 @@
+///*------------------------------------*\
+// #INUITCSS Main 
+//\*------------------------------------*/
+
+/* --- ## Modification valeurs de base ## --- */
+$inuit-base-text-color: #444;
+$inuit-base-background-color: #e3e2e2;
+$inuit-color-white: #fff;
+$inuit-color-red: #b52025;
+
+/* --- ## SETTINGS LAYER ## --- */
+@import "settings/defaults";
+@import "settings/responsive";
+
+/* --- ## TOOLS LAYER ## --- */
+@import "tools/functions";
+@import "tools/mixins";
+@import "tools/responsive";
+
+/* --- ## GENERIC LAYER ## --- */
+@import "generic/normalize";
+@import "generic/reset";
+@import "generic/box-sizing";
+@import "generic/shared";
+
+/* --- ## BASE LAYER ## --- */
+@import "base/page";
+@import "base/headers";
+@import "base/paragraphs";
+@import "base/lists";
+@import "base/img";
+
+/* --- ## OBJECTS LAYOUT ## --- */
+@import "objects/layout";
+@import "objects/box";
+@import "objects/media";
+@import "objects/list-inline";
+@import "objects/block";
+@import "objects/pack";
+@import "objects/list-ui";
+@import "objects/list-block";
+@import "objects/flag";
+@import "objects/tabs";
+@import "objects/tables";
+@import "objects/buttons";
+@import "objects/list-bare";
+@import "objects/header";
+@import "objects/list.categories";
+@import "objects/wrappers";
+@import "objects/parallax";
+@import "objects/liste-articles";
+@import "objects/footer";
+@import "objects/contact-form";
+
+/* --- ## COMPONENTS LAYOUT ## --- */
+@import "components/header";
+@import "components/list.categories";
+@import "components/wrappers";
+@import "components/liste-articles";
+@import "components/footer";
+@import "components/contact-form";
+
+/* --- ## TRUMPS LAYOUT ## --- */
+@import "trumps/clearfix";
+@import "trumps/widths";
+@import "trumps/widths-responsive";
+@import "trumps/spacing";
+@import "trumps/print";
+@import "trumps/hidden";

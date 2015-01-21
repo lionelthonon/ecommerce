@@ -1,0 +1,29 @@
+///*------------------------------------*\
+// #HEADER (design)
+//\*------------------------------------*/
+
+/* --- Base --- */
+.header {
+    background-image: url('../img/ban.jpg');
+    color: $inuit-base-background-color;
+    border-bottom: 2px solid $inuit-color-red;
+    a {
+        color: $inuit-base-background-color;
+    }
+    text-shadow: 0 -1px 0 $inuit-base-text-color;
+}
+
+/* --- Menu --- */
+.header__menu {
+    a {
+        text-decoration: none;
+        transition: background ease 450ms;
+    }
+    
+    a:hover {
+        background-color: $inuit-base-text-color;
+        color: $inuit-base-background-color;
+        
+        transition: background ease 450ms;
+    }
+}

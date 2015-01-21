@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #FOOTER (design)
+\*------------------------------------*/
+
+.footer__span {
+    text-align: center;
+}
+
+.footer {
+    padding: 4em 0 2em 0;
+    background: url('../img/ban.jpg');
+    color: $inuit-color-white;
+    border-top: 2px solid $inuit-color-red;
+    a {
+        color: $inuit-color-white;
+    }
+}
